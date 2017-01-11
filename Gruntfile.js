@@ -131,9 +131,6 @@ module.exports = function(grunt) {
           "js/initial.js",
           "js/jquery.easing.1.3.js",
           "js/animation.js",
-          "js/velocity.min.js",
-          "js/hammer.min.js",
-          "js/jquery.hammer.js",
           "js/global.js",
           "js/collapsible.js",
           "js/dropdown.js",
@@ -168,9 +165,6 @@ module.exports = function(grunt) {
           "js/initial.js",
           "js/jquery.easing.1.3.js",
           "js/animation.js",
-          "js/velocity.min.js",
-          "js/hammer.min.js",
-          "js/jquery.hammer.js",
           "js/global.js",
           "js/collapsible.js",
           "js/dropdown.js",
@@ -254,9 +248,6 @@ module.exports = function(grunt) {
             "initial.js",
             "jquery.easing.1.3.js",
             "animation.js",
-            "velocity.min.js",
-            "hammer.min.js",
-            "jquery.hammer.js",
             "global.js",
             "collapsible.js",
             "dropdown.js",
@@ -511,7 +502,7 @@ module.exports = function(grunt) {
       release: {
         options: {
           position: 'top',
-          banner: "/*!\n * Materialize v"+ grunt.option( "newver" ) +" (http://materializecss.com)\n * Copyright 2014-2015 Materialize\n * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)\n */",
+          banner: "/*!\n * Materialize v"+ grunt.option( "newver" ) +"-rwthapp (http://materializecss.com)\n * Copyright 2014-2015 Materialize\n * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)\n */",
           linebreak: true
         },
         files: {
